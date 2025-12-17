@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# PhishShield-AI
+PhishShield is an AI-powered web application designed to detect phishing URLs and help users avoid malicious websites before interacting with them. With phishing being one of the most common and dangerous cyber threats today, this project focuses on providing a lightweight, real-time, and user-friendly solution using machine learning.  
+>>>>>>> 4ab5cdae1f635291c4f697d61c742e72a510a85c

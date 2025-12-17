@@ -1,75 +1,73 @@
-HEAD
-# Getting Started with Create React App
+PhishShield – AI-Based Phishing Detection System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PhishShield is an AI-powered web application designed to detect phishing URLs and help users avoid malicious websites before interacting with them. With phishing being one of the most common and dangerous cyber threats today, this project focuses on providing a lightweight, real-time, and user-friendly solution using machine learning.
 
-## Available Scripts
+The system analyzes structural and lexical features of URLs—such as length, special characters, presence of IP addresses, and suspicious keywords—to classify whether a link is Safe or Phishing. PhishShield aims not only to enhance cybersecurity but also to promote digital awareness and safer browsing habits.
 
-In the project directory, you can run:
+ Features
+Real-time URL phishing detection
+Machine Learning–based classification
+Confidence score for each prediction
+User-friendly web interface
+Fast response using Flask backend
+Educational insights into suspicious URL patterns
 
-### `npm start`
+How It Works
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User enters a suspicious URL in the web interface
+The backend extracts multiple URL-based features:
+URL length
+Number of special characters
+Presence of IP address
+Subdomains count
+Keywords like login, verify, update
+Extracted features are passed to a trained ML model
+The model predicts whether the URL is Phishing or Legitimate
+Result and confidence score are displayed to the user
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tech Stack
 
-### `npm test`
+Backend
+Python
+Flask
+Scikit-learn
+Pandas, NumPy
+Frontend
+HTML
+CSS
+JavaScript
+Machine Learning
+Random Forest Classifier
+Logistic Regression (evaluated)
+Feature-based URL classification
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Model Performance
 
-### `npm run build`
+Best Model: Random Forest
+Accuracy: ~96.5%
+Inference Time: < 300 ms per URL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎯 Project Objectives
+Detect phishing URLs accurately using AI
+Reduce user exposure to online fraud
+Encourage safe and informed browsing behavior
+Demonstrate practical application of machine learning in cybersecurity
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌍 Social Impact
+PhishShield aligns with UN Sustainable Development Goal 16 (SDG-16) by promoting secure digital infrastructure and reducing cybercrime. The project contributes to improving trust and safety in online environments.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔮 Future Scope
+Browser extension (Chrome / Firefox)
+Email phishing detection
+Deep learning models (LSTM / CNN)
+Live URL threat intelligence integration
+Mobile application support
 
-### `npm run eject`
+📂 Dataset
+Public phishing datasets from Kaggle and UCI ML Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Labeled URLs (phishing & legitimate)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# PhishShield-AI
-PhishShield is an AI-powered web application designed to detect phishing URLs and help users avoid malicious websites before interacting with them. With phishing being one of the most common and dangerous cyber threats today, this project focuses on providing a lightweight, real-time, and user-friendly solution using machine learning.  
->>>>>>> 4ab5cdae1f635291c4f697d61c742e72a510a85c
+🧑‍💻 Author
+Sudhanshu Tiwari
+B.Tech – Computer Science & Engineering (Data Science)
